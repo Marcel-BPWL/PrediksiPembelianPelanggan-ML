@@ -8,3 +8,4 @@ seaborn
 streamlit_option_menu
 training
 pandas_profiling
+streamlit_pandas_profiling
