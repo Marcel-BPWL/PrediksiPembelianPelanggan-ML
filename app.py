@@ -5,12 +5,12 @@ import training
 import predict
 
 #Title of the Application
-st.title("Predict Customer's Purchase")
+st.title("Prediksi Pembelian Pelanggan")
 
 
 #Choice of page
-page_choices={"Know more about the training data":training,
-              "Predict the Possibility of Purchase":predict}
+page_choices={"Ketahui lebih banyak tentang dataset":training,
+              "Memprediksi Kemungkinan Pelanggan melakuakn Pembelian":predict}
 
 
 #Create radio button for the page choice
