@@ -6,3 +6,5 @@ matplotlib
 numpy
 seaborn
 streamlit_option_menu
+training
+pandas_profiling
