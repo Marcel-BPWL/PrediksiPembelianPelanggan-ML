@@ -11,7 +11,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 def app():
     #Header
-    st.write("Training data used")
+    st.write("Data training yang digunakan")
 
 
     #Reading the data
@@ -22,13 +22,13 @@ def app():
 
 
     #header
-    st.write("Distribution of Orders (Dependent variable)")
+    st.write("Distribusi Pesanan (variabel Dependent)")
 
 
     #bar plot
     temp=training_sample_subset["ordered"].value_counts()
     fig, ax = plt.subplots()
-    ax.bar(["Not ordered","Ordered"],temp,color ='maroon',width = 0.4)
+    ax.bar(["Not ordered","Ordered"],temp,color ='green',width = 0.4)
     plt.xlabel("Order status")
     plt.ylabel("No. of customers")
     st.pyplot()
