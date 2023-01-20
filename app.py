@@ -10,7 +10,7 @@ st.title("Prediksi Pembelian Pelanggan")
 
 #Choice of page
 page_choices={"Ketahui lebih banyak tentang dataset":training,
-              "Memprediksi Kemungkinan Pelanggan melakuakn Pembelian":predict}
+              "Memprediksi Kemungkinan Pelanggan melakukan Pembelian":predict}
 
 
 #Create radio button for the page choice
